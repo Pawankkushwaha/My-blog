@@ -1,6 +1,6 @@
 # pawankushwaha.com
 
-**Bottom line:** I designed, built and shipped my own blog and portfolio from scratch, and it is live today. It is a fast static site made with Claude Design (the look), Claude Code (the build), Astro (the framework), GitHub (version control) and Netlify (free hosting). This page shows the stack, the exact workflow, and how Git and GitHub fit in.
+**Bottom line:** I had a lot of learnings and resources scattered across Notion, Google Docs and Google Keep, so I built my own blog and portfolio to share them in one place, and it is live today. It is a fast static site made with Claude Design (the look), Claude Code (the build), Astro (the framework), GitHub (version control) and Netlify (free hosting). This page shows the stack, the exact workflow, and how Git and GitHub fit in.
 
 ## Links
 
@@ -30,16 +30,28 @@
 
 ## The problem
 
-I had my work spread across several small Netlify sites and no single home for it. I wanted one place for my articles, book summaries, videos, free resources, products and portfolio.
+I had a lot to say, and it was scattered.
 
-My rules for that place:
+My learnings, the resources I use and my templates lived in different places. Some were in Notion, some in Google Docs and some in Google Keep. Whenever I wanted to express myself, I used whichever tool was closest. There was no single home for any of it.
 
-- It must be free to run.
-- It must be fast.
-- It must be easy for Google and AI search tools to read.
-- I must own the content as plain files, so I can move hosts any time.
+**Why I wanted to share it**
 
-I first planned this on WordPress. On 2026-09-23 I switched to Astro + GitHub + Netlify, because plain files and a free host fit those four rules better.
+- I come from a humble background, and my journey had many challenges.
+- I tried a lot of things, failed many times and learned something from each one.
+- These learnings and resources helped me, and I wanted to pass them on.
+- I was also not very comfortable sharing in public.
+
+**What I wanted**
+
+I always wanted a personal blog where I could share my learnings and resources freely, with complete freedom.
+
+**Why I never started**
+
+A blog meant hosting a WordPress site, so I kept putting it off.
+
+**What changed**
+
+AI. With a bit of technical setup, Claude Design, Claude Code and Netlify, I finally built it.
 
 ## What it does
 
