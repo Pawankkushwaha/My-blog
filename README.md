@@ -30,11 +30,11 @@
 
 ## The problem
 
-Coming from a humble background, I always faced challenges in my journey. I have tried a lot of things, failed a lot of times, and learned a lot of things. I wanted to share all the learnings and resources that helped me along my journey. For some reason, I am not very comfortable sharing them publicly.
+Coming from a humble background, I faced many challenges in my journey. I tried a lot of things, failed many times, and learned a lot along the way. For some reason, I was not very comfortable sharing all of that publicly.
 
-All of these things were scattered across various tools like Notion, Google Docs, and Google Keep. They include all my learnings, my notes, the templates and resources I use. I always wanted to create my personal blog so that I could share all my learnings and resources freely.
+My learnings, notes, templates, and the resources I use were scattered across Notion, Google Docs, and Google Keep. I always wanted a personal blog where I could share them all freely.
 
-For some reason, I didn’t start, because creating a blog needs hosting a WordPress site, so I didn’t kept procrastinating. Thankfully, due to AI, it is now possible, and I finally did it with a bit of technical setup, using Claude Design, Claude Code, github and Netlify
+I didn’t start because a blog meant hosting a WordPress site, so I kept procrastinating. Thankfully, AI made it possible. With a bit of technical setup, and using Claude Design, Claude Code, GitHub, and Netlify, I finally built it.
 
 ## What it does
 
