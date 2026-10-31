@@ -30,28 +30,11 @@
 
 ## The problem
 
-I had a lot to say, and it was scattered.
+Coming from a humble background, I always faced challenges in my journey. I have tried a lot of things, failed a lot of times, and learned a lot of things. I wanted to share all the learnings and resources that helped me along my journey. For some reason, I am not very comfortable sharing them publicly.
 
-My learnings, the resources I use and my templates lived in different places. Some were in Notion, some in Google Docs and some in Google Keep. Whenever I wanted to express myself, I used whichever tool was closest. There was no single home for any of it.
+All of these things were scattered across various tools like Notion, Google Docs, and Google Keep. They include all my learnings, my notes, the templates and resources I use. I always wanted to create my personal blog so that I could share all my learnings and resources freely.
 
-**Why I wanted to share it**
-
-- I come from a humble background, and my journey had many challenges.
-- I tried a lot of things, failed many times and learned something from each one.
-- These learnings and resources helped me, and I wanted to pass them on.
-- I was also not very comfortable sharing in public.
-
-**What I wanted**
-
-I always wanted a personal blog where I could share my learnings and resources freely, with complete freedom.
-
-**Why I never started**
-
-A blog meant hosting a WordPress site, so I kept putting it off.
-
-**What changed**
-
-AI. With a bit of technical setup, Claude Design, Claude Code and Netlify, I finally built it.
+For some reason, I didn’t start, because creating a blog needs hosting a WordPress site, so I didn’t kept procrastinating. Thankfully, due to AI, it is now possible, and I finally did it with a bit of technical setup, using Claude Design, Claude Code, github and Netlify
 
 ## What it does
 
