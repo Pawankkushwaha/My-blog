@@ -170,42 +170,6 @@ flowchart LR
 
 I never upload files to Netlify by hand. I save changes with Git and push them to GitHub. Netlify sees the change, rebuilds the site and publishes it in about a minute.
 
-**The words that matter**
-
-| Word | Plain meaning |
-|---|---|
-| Repository (repo) | The project folder that Git tracks |
-| Commit | A saved snapshot with a short message |
-| Push | Send my commits from my laptop to GitHub |
-| Branch | A parallel copy where I can work without touching the live site |
-| `main` | The branch that is the live site |
-| Pull request | A request to merge a branch into `main`, with a preview link to review |
-| Merge | Bring a finished branch into `main`, which makes it live |
-| Deploy preview | A free test link Netlify builds for every branch |
-
-**My branch rules**
-
-- I never commit directly to `main`.
-- Every piece of work gets its own branch, cut from `origin/main`.
-- Small fixes are batched into one live deploy, because each deploy costs 15 of my 300 free monthly Netlify credits.
-- Anything marked as a draft never reaches the build, the sitemap or the search.
-
-**Problems I hit and fixed**
-
-- **GitHub blocked my first push (error GH007).** My Git email was my private email. I switched the repo's Git email to my GitHub no-reply address and re-stamped the first 3 commits.
-- **PowerShell blocked npm.** The execution policy stopped the scripts. I set it to `RemoteSigned`.
-- **My project path has square brackets.** PowerShell reads `[` and `]` as wildcards, so I use `-LiteralPath` for every path command.
-- **A design export was one 11 MB HTML file, not a zip.** I unpack it and read the manifest and template, and I keep the file out of Git.
-
-## Decisions worth noting
-
-- **One tokens file for all design values.** To change a color, I edit one file, and every page updates.
-- **Design wins over plans.** I flag every difference instead of silently picking one.
-- **Gray out unfinished links instead of hiding them.** Visitors see what is coming, and nothing broken is clickable.
-- **Previews are never indexed.** Netlify previews get `noindex` automatically.
-- **No empty promises.** There is no newsletter anywhere until I have a real one.
-- **Live only after I approve.** The merge needs my "make it live", so no unfinished page ships by accident.
-- **Plain files over a CMS.** Content stays in Markdown, which keeps hosting flexible.
 
 ## Status
 
@@ -239,4 +203,4 @@ I am Pawan Kushwaha, a final-year B.Tech student at NIT Allahabad and a content 
 
 ## About this repo
 
-This repository is a project showcase, not the source code. The site's code lives in a private repository, because it holds unpublished pages and design files. This README and the screenshots are the deliverable.
+This repository is a project showcase, not the source code. The site's code lives in a private repository, because it holds unpublished pages and design files.
